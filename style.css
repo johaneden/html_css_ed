@@ -16,10 +16,11 @@ html {
 .foot{
     background-color: #302F2B;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    width: 100%;
+    width: 100vw;
     padding: 2em 0;
     color: #EFECE3;
     font-size: larger;
@@ -30,7 +31,7 @@ html {
     color: #EFECE3;
 }
 #nav{
-    margin-left: 8em;
+    margin-left: 8vw;
 }
 
 
@@ -86,10 +87,9 @@ html {
 
 .picture_box{
     width: 85%;
-    display: block;  /* Обязательно, так как <img> по умолчанию строчный */
+    display: block;
     margin-left: auto;
     margin-right: auto;
-    /* Или любой фиксированный размер */
 }
 
 .picture_box2{
