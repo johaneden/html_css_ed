@@ -8,6 +8,7 @@ body{
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
+
     font-style: normal;
 }
 html {
@@ -76,20 +77,21 @@ html {
 .black_block{
     background-color: #302F2B;
     color: #EFECE3;
-    padding: 2em 1em;
+    padding: 2vh 2vw;
 }
 
 .white_block{
     background-color: #EFECE3;
     color: #302F2B;
-    padding: 2em 1em;
+    padding: 2vh 2vw;
 }
 
 .picture_box{
-    width: 85%;
+    width: 65%;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 2vh;
 }
 
 .picture_box2{
@@ -100,8 +102,8 @@ html {
     border: 3px dotted #302F2B;
 }
 .sub-foot{
-    margin-top: 2em;
+    margin-top: 1vh;
     background-color: #302F2B;
     color: #EFECE3;
-    padding: 1em;
+    padding: 1vh 1vw;
 }
