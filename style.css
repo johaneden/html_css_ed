@@ -1,0 +1,107 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #EFECE3;
+    margin: 0;
+    flex-wrap: wrap;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+html {
+    scroll-behavior: smooth;
+}
+.foot{
+    background-color: #302F2B;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    padding: 2em 0;
+    color: #EFECE3;
+    font-size: larger;
+}
+
+.navbutton{
+    text-decoration: none;
+    color: #EFECE3;
+}
+#nav{
+    margin-left: 8em;
+}
+
+
+
+#logo{
+    width: 3em;
+    height: 3em;
+    background-color: #EFECE3; /* Любой нужный вам цвет */
+    /* Сама картинка теперь работает как трафарет */
+    -webkit-mask-image: url('star.png');
+    mask-image: url('star.png');
+    
+    mask-size: contain;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: contain;
+    -webkit-mask-repeat: no-repeat;
+
+}
+
+#logotext{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+     color: #EFECE3
+}
+
+
+.montserrat{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 450;
+  font-style: normal;
+}
+
+.marck-script-regular {
+  font-family: "Marck Script", cursive;
+  font-weight: 550;
+  font-size: larger;
+  font-style: normal;
+}
+
+.black_block{
+    background-color: #302F2B;
+    color: #EFECE3;
+    padding: 2em 1em;
+}
+
+.white_block{
+    background-color: #EFECE3;
+    color: #302F2B;
+    padding: 2em 1em;
+}
+
+.picture_box{
+    width: 85%;
+    display: block;  /* Обязательно, так как <img> по умолчанию строчный */
+    margin-left: auto;
+    margin-right: auto;
+    /* Или любой фиксированный размер */
+}
+
+.picture_box2{
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px dotted #302F2B;
+}
+.sub-foot{
+    margin-top: 2em;
+    background-color: #302F2B;
+    color: #EFECE3;
+    padding: 1em;
+}
